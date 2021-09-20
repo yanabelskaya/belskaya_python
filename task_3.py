@@ -2,7 +2,7 @@ def print_elements_multiples_of_three(elements_list: list) -> list:
     return [i for i in elements_list if i % 3 == 0]
 
 
-def get_number_from_user():
+def get_number_from_user() -> list:
     list_to_check = []
     while True:
         user_input = input("Enter a number, enter 'q' to exit: ")
